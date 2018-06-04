@@ -5,9 +5,9 @@ The Hewlett Foundation has provided a set of high school student essays along wi
 
 I would like to see if current NLP algorithms have improved to the point where the assessment score classification can be improved over the 2012 attempts. Additionally, can the essay and score combinations be used to automatically generate essays for a given score? These questions have commercial impact far beyond student assessment and can be tackled with nearly the same approach. For example, given a set of financial documents, which one should a manager read first? Or how can a journalist write an article specifically tailored to a target audience?
 
-The data is provided as separate training, test and validation sets. The training data contains about 1700 essays for each of 7 topics and about 500 essay for an eighth topic. Topics are either 
+The data is provided as separate training, test and validation sets. The training data contains about 1700 essays for each of 7 topics and about 500 essay for an eighth topic. Essays are either source dependent responses or persuasive/narrative/expository on a given topic.
 
-[https://www.kaggle.com/c/asap-aes/data]
+https://www.kaggle.com/c/asap-aes/data
 
 Assessment can be performed in a variety of ways. For example, in a supervised machine learning approach using regression on extracted features, named entities, syntax or labelled dependencies.
 
@@ -15,5 +15,6 @@ Topic modeling can be performed in a unsupervised approach to assign scores base
 
 Essay generation can be performed with recurrent neural network algorithms.
 
-<sup>1</sup> [https://www.kaggle.com/c/asap-aes]
-<sup>2</sup> [https://nlp.stanford.edu/courses/cs224n/2013/reports/song.pdf]
+<sup>1</sup> https://www.kaggle.com/c/asap-aes
+
+<sup>2</sup> https://nlp.stanford.edu/courses/cs224n/2013/reports/song.pdf
